@@ -1,0 +1,10 @@
+#include <iostream>
+#include <tchar.h>
+#include 'IRClientTCP'
+using namespace std ;
+
+int _tmain(int argc, _TCHAR* argv[])
+{
+	 //création d'un objet
+	  IRClientTCP monclient ;
+}
