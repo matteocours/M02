@@ -1,4 +1,4 @@
-﻿#include "IRClientTCP.h"
+#include "IRClientTCP.h"
 
 #ifdef _WIN32 || _WIN64
 #include <winsock2.h>

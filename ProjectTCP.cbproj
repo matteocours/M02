@@ -110,6 +110,10 @@
         <BCC_UseClassicCompiler>false</BCC_UseClassicCompiler>
     </PropertyGroup>
     <ItemGroup>
+        <CppCompile Include="DMXTCP.cpp">
+            <DependentOn>DMXTCP.h</DependentOn>
+            <BuildOrder>4</BuildOrder>
+        </CppCompile>
         <CppCompile Include="File1.cpp">
             <BuildOrder>1</BuildOrder>
         </CppCompile>

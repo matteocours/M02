@@ -1,0 +1,25 @@
+#include <iostream>
+#include <tchar.h>
+#include "IRClientTCP.h"
+using namespace std ;
+
+int _tmain(int argc, _TCHAR* argv[])
+{
+	  DMXTCP monDMXTCP;	 					//création d'un objet
+	  int pan ;             	 			// créer entier pan
+	  while(true) 				 			//boucle infini
+	  {
+		  cout<<"PAN ?";
+		  cin>> pan;
+		  if(monDMXTCP.Modifier     			//saisir un nombre
+		  trame[113]=pan;
+
+
+	  }
+
+		 return 0;
+
+}
+
+
+
